@@ -41,7 +41,7 @@
 
 </head>
 
-<body class="preloader-is--active ">
+<body class="preloader-is--active " style="overflow: hidden;">
 
 	<div class="site-wrapper site-layout--default">
 
@@ -62,7 +62,7 @@
 		<main class="site-content login-page" id="wrapper">
 			<div class="row">
 				<div class="col-md-6">
-					<h2 class="h4">Login</h2>
+					<h2 class="h4" style="color: red; margin-top: 20%;">Family Registration</h2>
 					<form action="#" class="form login-form">
 						<div class="form-group">
 							<input type="text" class="form-control" id="input-text-1" placeholder="Name*">
@@ -74,17 +74,15 @@
 							<input type="text" class="form-control" id="input-text-3" placeholder="Description*">
 						</div>
 						<div class="drpdwn">
-							<select class="slt" name="House" id="house">
+							<select class="slt" name="House" id="house" alt="player need atleast 1 house as he pre ownerned">
 								<option value="1">Select your house</option>
-								<option value="2">a</option>
-								<option value="3">b</option>
-								<option value="4">c</option>
-							</select>
+								<option class="sltfnt" value="2">a</option>
+								<option class="sltfnt" value="3">b</option>
+								<option class="sltfnt" value="4">c</option>
+							</select><br>
+							<br>
 						  </div>
-						<button class="btn btn-primary btn-block register-form__button">Create your account!</button>
-						<div class="register-form__info">
-							You'll receive a confirmation email with </br>a link to activate your account!
-						</div>
+						<button style class="btn btn-primary btn-block register-form__button"> REGISTER</button>
 					</form>
 				</div>
 				<div class="col-md-6">
