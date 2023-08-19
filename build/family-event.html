@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="eSports Team &amp; Gaming HTML Template">
+	<meta name="author" content="Dan Fisher">
+	<meta name="keywords" content="esports team news HTML template">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/favicon-152.png">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Google Web Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700" rel="stylesheet">
+<link href="assets/css/style1.css" rel="stylesheet">
+
+</head>
+
+<body style="overflow: hidden; margin: 0%; background-color: black;">
+	<div class="slideshow-container" style="margin: 0%;">
+
+		<div class="mySlides">
+      <div class="text1">EVENTS</div>
+      <img src="assets/img/events/event1.png" style="width:100%; height: 100vh;" class="img">
+		  <div class="descriptivetext"><div class="title">DESCRIPTION:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+		  <div class="descriptivetext1"><div class="title">PLACE:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+		  <div class="descriptivetext2"><div class="title">REWARD:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+		  <div class="text">AirCraft carrier</div>
+		  <a href="family-index.html"><div class="exit">EXIT</div></a>
+		</div>
+	  
+		<div class="mySlides">
+			<div class="text1">EVENTS</div>
+			<img src="assets/img/bg-matches-01.jpg" style="width:100%; height: 100vh;" class="img">
+				<div class="descriptivetext"><div class="title">DESCRIPTION:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+				<div class="descriptivetext1"><div class="title">PLACE:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+				<div class="descriptivetext2"><div class="title">REWARD:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+				<div class="text">AirCraft carrier</div>
+				<a href="family-index.html"><div class="exit">EXIT</div></a>
+		</div>
+	  
+		<div class="mySlides">
+			<div class="text1">EVENTS</div>
+			<img src="assets/img/events/event1.png" style="width:100%; height: 100vh;" class="img">
+				<div class="descriptivetext"><div class="title">DESCRIPTION:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+				<div class="descriptivetext1"><div class="title">PLACE:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+				<div class="descriptivetext2"><div class="title">REWARD:</div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+				<div class="text">AirCraft carrier</div>
+				<a href="family-index.html"><div class="exit">EXIT</div></a>
+		</div>
+	  
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  </div>
+
+	<script>
+		let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+	</script>
+
+<link href="assets/css/style1.css" rel="stylesheet">
+</body>
+
+</html>

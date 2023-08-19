@@ -1,0 +1,137 @@
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+	overflow: hidden;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  margin-top: 0%;
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 4%;
+  width: auto;
+  margin-top: -22px;
+  padding: 30px;
+  color: rgb(255, 0, 0);
+  background-color: rgba(255, 255, 255, 0.507);
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: #ffffff;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: 600;
+  padding: 8px 12px;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+ align-content: center;
+ text-align: center;
+  background-color: rgba(0, 0, 0, 0.226); 
+}
+
+.text1{
+  color: #ffffff;
+  font-family: 'Trebuchet MS';
+  font-size: 70px;
+  font-weight:700;
+  letter-spacing: 1px;
+  top: 3%;
+  left: 43%;
+  padding: 10px 20px;
+  position: absolute;
+ align-content: center;
+ text-align: center;
+}
+
+.descriptivetext {
+  color: #ffffff;
+  font-size: larger;
+  padding: 8px 12px;
+  position: absolute;
+  top: 45%;
+  width: 20%;
+  background-color: rgba(255, 0, 0, 0.527);
+  border-radius: 20px;
+  transform: translateX(40%);
+  font-family: Arial;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descriptivetext1{
+    color: #ffffff;
+    font-size: larger;
+    padding: 8px 12px;
+    position: absolute;
+    top: 60%;
+    width: 20%;
+    background-color: rgba(255, 0, 0, 0.527);
+    border-radius: 20px;
+    transform: translateX(40%);
+    font-family: Arial;
+  }
+
+  .descriptivetext2{
+    color: #ffffff;
+    font-size: larger;
+    padding: 8px 12px;
+    position: absolute;
+    top: 75%;
+    width: 20%;
+    background-color: rgba(255, 0, 0, 0.527);
+    border-radius: 20px;
+    transform: translateX(40%);
+    font-family: Arial;
+  }
+
+  .close{
+    font-size: 30px;
+    font-weight: 300;
+    top: 50px; left: 20px;
+    height: 10%;
+    width: 10%;
+  }
+
+  .exit{
+    color: #ffffff;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transform: translateX(40%);
+    font-family: Arial;
+  }
+
+  .exit:hover{
+    color: red;
+    background-color: #ffffff;
+  }
