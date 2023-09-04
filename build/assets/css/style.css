@@ -18487,9 +18487,9 @@ div.cs-active {
   position: absolute;
   left: 53%;
   bottom: 0;
-  background-color: #487500;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#73bb00), to(#1d3000));
-  background-image: linear-gradient(#73bb00, #1d3000);
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ffffff));
+  background-image: linear-gradient(#ff0000, #000);
   width: 49%;
   height: 73%;
   -webkit-transform: skew(-20deg) translateX(-50%);
@@ -18506,7 +18506,7 @@ div.cs-active {
   width: 91%;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.2);
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
 }
 
 .ncr-page-decor__layer-1 .ncr-page-decor__layer-bg {
@@ -18519,9 +18519,9 @@ div.cs-active {
   position: absolute;
   left: 43%;
   bottom: 0;
-  background-color: #7dcd00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a0e700), to(#29a000));
-  background-image: linear-gradient(#a0e700, #29a000);
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#fff));
+  background-image: linear-gradient(#f00, #fff);
   width: 49%;
   height: 65%;
   -webkit-transform: skew(-20deg) translateX(-50%);
@@ -18538,7 +18538,7 @@ div.cs-active {
   width: 89%;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.2);
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
 }
 
 .ncr-page-decor__layer-3 {
@@ -18546,9 +18546,9 @@ div.cs-active {
   position: absolute;
   left: 55%;
   bottom: 0;
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#24bd00));
-  background-image: linear-gradient(#e7f800, #24bd00);
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#fff));
+  background-image: linear-gradient(#ff0000, #ffffff);
   width: 42%;
   height: 100%;
   -webkit-transform: skew(-20deg) translateX(-50%);
@@ -18564,8 +18564,9 @@ div.cs-active {
   top: 0;
   width: 50%;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.4);
-  mix-blend-mode: overlay;
+  background-color: rgba(255, 0, 0, 0.6);
+  mix-blend-mode: multiply;
+
 }
 
 .ncr-page-decor__layer-3::after {
@@ -18576,7 +18577,7 @@ div.cs-active {
   top: 0;
   width: 2px;
   height: 25%;
-  background-color: #f3ff38;
+  background-color: #ffffff;
 }
 
 .ncr-page-decor__layer-4 {
@@ -18586,7 +18587,7 @@ div.cs-active {
   top: 4%;
   width: 2px;
   height: 42%;
-  background-color: #f3ff38;
+  background-color: #ffffff;
   -webkit-transform: skew(-20deg) translateX(-50%);
           transform: skew(-20deg) translateX(-50%);
 }
@@ -18598,7 +18599,7 @@ div.cs-active {
   bottom: 0;
   width: 2px;
   height: 42%;
-  background-color: #f3ff38;
+  background-color: #ffffff;
   -webkit-transform: skew(-20deg) translateX(-50%);
           transform: skew(-20deg) translateX(-50%);
 }
@@ -18632,75 +18633,75 @@ div.cs-active {
 }
 
 .ncr-page-decor--color-2 .ncr-page-decor__layer-1 {
-  background-color: #bd2400;
+  background-color: #ffffff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e52e00), to(#690c00));
   background-image: linear-gradient(#e52e00, #690c00);
 }
 
 .ncr-page-decor--color-2 .ncr-page-decor__layer-2 {
-  background-color: #d23b00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ed4b00), to(#981300));
-  background-image: linear-gradient(#ed4b00, #981300);
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#fff));
+  background-image: linear-gradient(#f00, #fff);
 }
 
 .ncr-page-decor--color-2 .ncr-page-decor__layer-3 {
-  background-color: #ff5c1c;
+  background-color: #ffffff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa632), to(#ff1306));
-  background-image: linear-gradient(#ffa632, #ff1306);
+  background-image: linear-gradient(#fff, #000);
 }
 
 .ncr-page-decor--color-3 .ncr-page-decor__layer-1 {
-  background-color: #003681;
+  background-color: #ffffff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0056cc), to(#001636));
   background-image: linear-gradient(#0056cc, #001636);
 }
 
 .ncr-page-decor--color-3 .ncr-page-decor__layer-2 {
-  background-color: #0055c9;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0087e9), to(#0023a9));
-  background-image: linear-gradient(#0087e9, #0023a9);
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#fff));
+  background-image: linear-gradient(#f00, #fff);
 }
 
 .ncr-page-decor--color-3 .ncr-page-decor__layer-3 {
   background-color: #197aff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2ddbff), to(#0023a9));
-  background-image: linear-gradient(#2ddbff, #0023a9);
+  background-image: linear-gradient(#fff, #000);
 }
 
 .ncr-page-decor--color-4 .ncr-page-decor__layer-1 {
   background-color: #1d0a54;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2e1086), to(#0c0422));
-  background-image: linear-gradient(#2e1086, #0c0422);
+  background-image: linear-gradient(#fff, #000);
 }
 
 .ncr-page-decor--color-4 .ncr-page-decor__layer-2 {
-  background-color: #4114c3;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#6820e7), to(#1b089f));
-  background-image: linear-gradient(#6820e7, #1b089f);
+  background-color: #ff0000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ffffff));
+  background-image: linear-gradient(#fff, #000);
 }
 
 .ncr-page-decor--color-4 .ncr-page-decor__layer-3 {
   background-color: #4815d9;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#8126f7), to(#0f04bb));
-  background-image: linear-gradient(#8126f7, #0f04bb);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#000000));
+  background-image: linear-gradient(#fff, #000);
 }
 
 .ncr-page-decor--color-5 .ncr-page-decor__layer-1 {
   background-color: #550014;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#870020), to(#230008));
-  background-image: linear-gradient(#870020, #230008);
+  background-image: linear-gradient(#fff, #000);
 }
 
 .ncr-page-decor--color-5 .ncr-page-decor__layer-2 {
-  background-color: #830025;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#cd003b), to(#39000f));
-  background-image: linear-gradient(#cd003b, #39000f);
+  background-color: #ff0000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ffffff));
+  background-image: linear-gradient(#fff, #000);
 }
 
 .ncr-page-decor--color-5 .ncr-page-decor__layer-3 {
   background-color: #97002b;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ea004d), to(#440009));
-  background-image: linear-gradient(#ea004d, #440009);
+  background-image: linear-gradient(#fff, #000);
 }
 
 /* Common styles of menus */
@@ -36125,9 +36126,9 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
 .team-info-page .team-player__inner .ncr-page-decor .ncr-page-decor__layer-2 {
   height: 100%;
   left: 78%;
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e900), to(#55cc00));
-  background-image: linear-gradient(#b6e900, #55cc00);
+  background-color: #ff0000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#fff));
+  background-image: linear-gradient(#ff0000, #000000);
 }
 
 .team-info-page .team-player__inner .ncr-page-decor .ncr-page-decor__layer-2::before {
@@ -36144,7 +36145,7 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
   top: 0;
   width: 2px;
   height: 100%;
-  background-color: #f3ff38;
+  background-color: #ffffff;
 }
 
 .team-info-page .team-player__inner .ncr-page-decor .ncr-page-decor__layer-3 {
@@ -36152,8 +36153,8 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
   height: 70%;
   width: 50%;
   background-color: #ff0000;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c8ff19), to(#7fff0b));
-  background-image: linear-gradient(#c8ff19, #7fff0b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#fff));
+  background-image: linear-gradient(#f00, #000);
   -webkit-box-shadow: 0 3px 0 24px rgba(0, 0, 0, 0.05);
           box-shadow: 0 3px 0 24px rgba(0, 0, 0, 0.05);
 }
