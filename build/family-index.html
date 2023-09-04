@@ -41,7 +41,7 @@
 
 </head>
 
-<body class="preloader-is--active bg-image bg-fixed bg--texture-01 bg--dotted-3x3">
+<body class=" bg-image bg-fixed bg--texture-01 bg--dotted-3x3">
 
 	<div class="site-wrapper site-layout--default">
 
@@ -585,7 +585,7 @@
 									</a>
 								</li>
 								<li class="team-player__filter-item">
-									<a href="#player-1" role="tab" data-toggle="tab" class="team-player__filter-inner ">
+									<a href="family-event.html"  class="team-player__filter-inner ">
 										<h6 style="transform: translateX(21%); font-size: 20px;">Event</h6>
 										<i class="fas fa-clipboard-list" style="font-size: 35px;  transform: translate(25px,-10px); "></i>
 									</a>
@@ -2155,17 +2155,6 @@
 
 	</div>
 
-	<div class="preloader-overlay">
-		<div id="js-preloader" class="preloader">
-			<div class="preloader-inner fadeInUp">
-				<div class="pong-loader"></div>
-				<svg role="img" class="df-icon df-icon--preloader-arcade">
-					<use xlink:href="assets/img/necromancers.svg#preloader-arcade"/>
-				</svg>
-			</div>
-		</div>
-	</div>
-
 	<!-- The cursor elements -->
 	<div class="df-custom-cursor-wrap">
 		<div id="df-custom-cursor"></div>
@@ -2185,22 +2174,6 @@
 	<script src="assets/js/init.js"></script>
 	<script src="assets/js/custom.js"></script>
 	
-	<!-- Duotone SVG color filter -->
-	<svg xmlns="http://www.w3.org/2000/svg" class="svg-filters">
-		<filter id="duotone_base">
-			<feColorMatrix type="matrix" result="grayscale"
-				values="1 0 0 0 0
-								1 0 0 0 0
-								1 0 0 0 0
-								0 0 0 1 0" />
-			<feComponentTransfer color-interpolation-filters="sRGB" result="duotone_base_filter">
-				<feFuncR type="table" tableValues="0.082352941176471 0.419607843137255"></feFuncR>
-				<feFuncG type="table" tableValues="0.090196078431373 0.443137254901961"></feFuncG>
-				<feFuncB type="table" tableValues="0.125490196078431 0.6"></feFuncB>
-				<feFuncA type="table" tableValues="0 1"></feFuncA>
-			</feComponentTransfer>
-		</filter>
-	</svg>
 
 </body>
 
