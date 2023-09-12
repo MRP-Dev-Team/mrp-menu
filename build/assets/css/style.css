@@ -26487,15 +26487,15 @@ body:not(.cursor-is--active) .widget.slick-slider .slick-dots li {
 }
 
 .bg--texture-02 {
-  background-image: url("../img/bg-texture-02.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/1150795758761672704/1151155576580083762/bret1.jpg");
 }
 
 .bg--texture-03 {
-  background-image: url("../img/bg-texture-03.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/1150795758761672704/1151151547766538300/joyalsiby_a_rich_gangster_in_GTA_in_the_style_of_pixelated_real_0d839c0a-780d-4fb6-9928-f8d1978dfd2e.png");
 }
 
 .bg--texture-04 {
-  background-image: url("../img/bg-texture-04.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/1150795758761672704/1151155410246565938/brt1.png");
 }
 
 .bg--texture-05 {
@@ -36919,8 +36919,8 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
   position: relative;
   opacity: 0;
   background-color: #151720;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#26293a), to(#040506));
-  background-image: linear-gradient(#26293a, #040506);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#fff));
+  background-image: linear-gradient(#ff0000, #ffffff);
 }
 
 .team-player__slide.slick-active:not(.slick-current) .team-player__slide-inner {
@@ -36930,9 +36930,9 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 }
 
 .team-player__slide.slick-current .team-player__slide-inner {
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#24bd00));
-  background-image: linear-gradient(#e7f800, #24bd00);
+  background-color: #ff0000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ffffff));
+  background-image: linear-gradient(#f00, #fff);
   opacity: 1;
   overflow: visible;
 }
@@ -36968,38 +36968,38 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 }
 
 .team-player__slide.slick-current.team-player__slide--category-1 .team-player__slide-inner {
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#24bd00));
-  background-image: linear-gradient(#e7f800, #24bd00);
+  background-color: #141720;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ff0000));
+  background-image: linear-gradient(#ff0000, #141720);
 }
 
 .team-player__slide.slick-current.team-player__slide--category-2 .team-player__slide-inner {
-  background-color: #ff5c1c;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa632), to(#ff1306));
-  background-image: linear-gradient(#ffa632, #ff1306);
+  background-color: #141720;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ff0000));
+  background-image: linear-gradient(#ff0000, #ffffff);
 }
 
 .team-player__slide.slick-current.team-player__slide--category-3 .team-player__slide-inner {
-  background-color: #197aff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2ddcff), to(#051aff));
-  background-image: linear-gradient(#2ddcff, #051aff);
+  background-color: #141720;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ff0000));
+  background-image: linear-gradient(#ff0000, #ffffff);
 }
 
 .team-player__slide.slick-current.team-player__slide--category-4 .team-player__slide-inner {
-  background-color: #4815d9;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#8226f7), to(#0e04bb));
-  background-image: linear-gradient(#8226f7, #0e04bb);
+  background-color: #141720;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ff0000));
+  background-image: linear-gradient(#ff0000, #ffffff);
 }
 
 .team-player__slide.slick-current.team-player__slide--category-5 .team-player__slide-inner {
-  background-color: #97002b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e9004d), to(#440009));
-  background-image: linear-gradient(#e9004d, #440009);
+  background-color: #141720;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ff0000));
+  background-image: linear-gradient(#ff0000, #ffffff);
 }
 
 .team-player__slide-inner {
   display: block;
-  background-color: green;
+  background-color: red;
   height: 100%;
   -webkit-transform: skewX(-20deg);
           transform: skewX(-20deg);
@@ -37032,7 +37032,7 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
   right: -33%;
   top: 0;
   bottom: 0;
-  background-image: url("../img/hexagon-bg.png");
+
   background-repeat: no-repeat;
   background-position: 100% 0;
   mix-blend-mode: overlay;
@@ -37051,7 +37051,7 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
   top: 10%;
   width: 2px;
   height: 35%;
-  background-color: #f3ff38;
+  background-color: #ffffff;
 }
 
 .team-player__slide-line-2 {
@@ -37060,7 +37060,7 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
   top: 0;
   width: 2px;
   height: 23%;
-  background-color: #f3ff38;
+  background-color: #ffffff;
 }
 
 .team-player__slide-img {
