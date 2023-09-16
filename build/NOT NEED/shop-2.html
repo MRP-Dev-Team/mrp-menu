@@ -47,7 +47,7 @@
 
 		<!-- Header
 		================================================== -->
-		<header id="header" class="site-header site-header--bottom">
+		<header id="header" class="site-header ">
 		
 			<!-- Logo - Image Based -->
 			<div class="header-logo header-logo--img">
@@ -146,7 +146,7 @@
 										</ul>
 										<ul class="col-md-4">
 											<li class=""><a href="management-and-staff.html">MGMT & Staff</a></li>
-											<li class="active"><a href="streams-archive.html">Streams Page</a></li>
+											<li class=""><a href="streams-archive.html">Streams Page</a></li>
 											<li class=""><a href="partners.html">Our Partners</a></li>
 											<li class=""><a href="features-shortcodes.html">Shortcodes</a></li>
 											<li class=""><a href="features-typography.html">Typography</a></li>
@@ -207,7 +207,7 @@
 										</ul>
 										<ul class="col-md-4">
 											<li class=""><a href="shop.html">Shop Page v1</a></li>
-											<li class=""><a href="shop-2.html">Shop Page v2</a></li>
+											<li class="active"><a href="shop-2.html">Shop Page v2</a></li>
 											<li class=""><a href="shop-product.html">Product Page</a></li>
 											<li class=""><a href="shop-checkout.html">Checkout Page</a></li>
 										</ul>
@@ -216,21 +216,67 @@
 							</div>
 						</div>
 					</li>
-					<li class="">
-						<a href="#">Shop</a>
-						<ul class="main-nav__sub">
-							<li class=""><a href="shop.html">Shop Page v1</a></li>
-							<li class=""><a href="shop-2.html">Shop Page v2</a></li>
-							<li class=""><a href="shop-product.html">Product Page</a></li>
-							<li class=""><a href="shop-checkout.html">Checkout Page</a></li>
-						</ul>
-					</li>
+					
 				</ul>
 			</nav>
 			<!-- Main Navigation / End -->
 		
 			<!-- Header Actions -->
 			<div class="header-actions">
+					<div class="header-pagination">
+						<a href="#" class="header-scroll-arrow header-scroll-arrow--left">
+							<svg role="img" class="df-icon df-icon--left-arrow">
+								<use xlink:href="assets/img/necromancers.svg#left-arrow"/>
+							</svg>
+						</a>
+						<ol class="header-pagination--list">
+							<li><a href="#">01</a></li>
+							<li><a href="#">02</a></li>
+							<li><span>...</span></li>
+							<li><a href="#">08</a></li>
+						</ol>
+						<a href="#" class="header-scroll-arrow header-scroll-arrow--right">
+							<svg role="img" class="df-icon df-icon--right-arrow">
+								<use xlink:href="assets/img/necromancers.svg#right-arrow"/>
+							</svg>
+						</a>
+					</div>
+					<div class="header-filter-toggle">
+						<svg role="img" class="df-icon df-icon--filter">
+							<use xlink:href="assets/img/necromancers.svg#filter"/>
+						</svg>
+						<div class="filter-menu">
+							<form action="#" class="filter-menu__form">
+								<div class="filter-menu__select">
+									<label class="filter-menu__label">Category</label>
+									<select class="cs-select">
+										<option value="" selected>All Categories</option>
+										<option value="">Esports</option>
+										<option value="">Gaming</option>
+										<option value="">Videos</option>
+									</select>
+								</div>
+								<div class="filter-menu__select">
+									<label class="filter-menu__label">Filter By</label>
+									<select class="cs-select">
+										<option value="" selected>Article Date</option>
+										<option value="">Comments</option>
+										<option value="">Popularity</option>
+									</select>
+								</div>
+								<div class="filter-menu__select">
+									<label class="filter-menu__label">Order</label>
+									<select class="cs-select">
+										<option value="" selected>Ascending</option>
+										<option value="">Descending</option>
+									</select>
+								</div>
+								<div class="filter-menu__submit">
+									<button type="submit" class="btn btn-primary btn-sm btn-block">Filter News</button>
+								</div>
+							</form>
+						</div>
+					</div>
 				<div class="header-top-bar-toggle d-md-none hide">
 					<svg role="img" class="df-icon df-icon--joystick">
 						<use xlink:href="assets/img/necromancers.svg#joystick"/>
@@ -305,215 +351,153 @@
 		================================================== -->
 		<main class="site-content" id="wrapper">
 			
-			<div class="page-heading page-heading--loop page-heading--streams-archive bg-image bg--ph-04">
-				<div class="page-heading__subtitle h5 color-warning">Necromancers</div>
-				<h1 class="page-heading__title h2">Streams </br>Archive</h1>
-				<div class="page-heading__body">
-					<svg role="img" class="df-icon df-icon--twitch-word-logo">
-						<use xlink:href="assets/img/necromancers.svg#twitch-word-logo"/>
-					</svg>
-					<div class="h5">Relive your favourite </br>livestreams!</div>
-					<p>Select your <span class="color-warning font-bold">favourite streamer</span> to filter the videos, or click the Necromancers logo to checkout all of them!</p>
-				</div>
-				<!-- Filter -->
-				<ul class="streams-filter filter js-filter list-unstyled">
+			<div class="widget-area widger-area--before-loop">
+			<div class="content shop-layout--style-2">
 			
-					<li>
-						<button class="btn active" data-filter="*">
-							<img src="assets/img/samples/streams-filter-avatar-01.png" alt="">
-						</button>
-					</li>
-					<li>
-						<button class="btn " data-filter=".stream-1">
-							<img src="assets/img/samples/streams-filter-avatar-02.png" alt="">
-						</button>
-					</li>
-					<li>
-						<button class="btn " data-filter=".stream-2">
-							<img src="assets/img/samples/streams-filter-avatar-03.png" alt="">
-						</button>
-					</li>
-					<li>
-						<button class="btn " data-filter=".stream-3">
-							<img src="assets/img/samples/streams-filter-avatar-04.png" alt="">
-						</button>
-					</li>
-					<li>
-						<button class="btn " data-filter=".stream-4">
-							<img src="assets/img/samples/streams-filter-avatar-05.png" alt="">
-						</button>
-					</li>
-					<li>
-						<button class="btn " data-filter=".stream-5">
-							<img src="assets/img/samples/streams-filter-avatar-06.png" alt="">
-						</button>
-					</li>
-			
-				</ul>
-				<!-- Filter / End -->
-			</div>
-			<div class="content streams-archive">
-			
-				<article class="stream stream-1 has-post-thumbnail" data-id="playhearthstone" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-01.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-01.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-01.jpg" alt="">
-							</div>
-							<h6 class="stream__title">
-								Davikinger plays &quot;Clash of eternity&quot;<span class="badge badge-danger badge-live">Live</span>
-							</h6>
-							<div class="stream__date">August 3rd, 2018</div>
-						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow Davikinger90</span>
+					<div class="product">
+						<a href="shop-product.html" class="product__thumbnail">
+							<img src="assets/img/samples/product-img-01.png" alt="">
+							<div class="btn btn-tertiary">Add to cart +</div>
 						</a>
-					</div>
-				</article>
-				<article class="stream stream-2 has-post-thumbnail" data-id="weplayesport_ru" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-02.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-02.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-02.jpg" alt="">
+						<div class="product__body">
+							<div class="product__header">
+								<ul class="product__cats list-unstyled">
+									<li class="product__cats-item">
+										<a href="#">Framed prints</a>
+									</li>
+								</ul>
+								<h2 class="product__title h4"><a href="shop-product.html">Magimons black framed print</a></h2>
+								<ul class="product__meta list-unstyled">
+									<li class="product__meta-item product__price">$38.00</li>
+									<li class="product__meta-item product__ratings">
+										<div class="fas star-rating">
+											<span style="width: 80%;">&nbsp;</span>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<h6 class="stream__title">
-								The magimons adventure with G-Huntress
-							</h6>
-							<div class="stream__date">August 3rd, 2018</div>
 						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow G-Huntress</span>
+					</div>
+					<div class="product">
+						<a href="shop-product.html" class="product__thumbnail">
+							<img src="assets/img/samples/product-img-02.png" alt="">
+							<div class="btn btn-tertiary">Add to cart +</div>
 						</a>
-					</div>
-				</article>
-				<article class="stream stream-1 stream-3 stream-5 has-post-thumbnail" data-id="sc2showtime" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-03.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-03.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-03.jpg" alt="">
+						<div class="product__body">
+							<div class="product__header">
+								<ul class="product__cats list-unstyled">
+									<li class="product__cats-item">
+										<a href="#">Coffee mugs</a>
+									</li>
+								</ul>
+								<h2 class="product__title h4"><a href="shop-product.html">Necromancers ennamel mug</a></h2>
+								<ul class="product__meta list-unstyled">
+									<li class="product__meta-item product__price">$16.00</li>
+									<li class="product__meta-item product__ratings">
+										<div class="fas star-rating">
+											<span style="width: 60%;">&nbsp;</span>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<h6 class="stream__title">
-								Super plumber bros speedrun for charity!
-							</h6>
-							<div class="stream__date">July 27th, 2018</div>
 						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow Julie_Noire</span>
+					</div>
+					<div class="product">
+						<a href="shop-product.html" class="product__thumbnail">
+							<img src="assets/img/samples/product-img-03.png" alt="">
+							<div class="btn btn-tertiary">Add to cart +</div>
 						</a>
-					</div>
-				</article>
-				<article class="stream stream-3 stream-4 has-post-thumbnail" data-id="hashinshin" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-04.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-04.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-04.jpg" alt="">
+						<div class="product__body">
+							<div class="product__header">
+								<ul class="product__cats list-unstyled">
+									<li class="product__cats-item">
+										<a href="#">Clothing</a>
+									</li>
+								</ul>
+								<h2 class="product__title h4"><a href="shop-product.html">Necromancers women&#x27;s t-shirt</a></h2>
+								<ul class="product__meta list-unstyled">
+									<li class="product__meta-item product__price">$24.99</li>
+									<li class="product__meta-item product__ratings">
+										<div class="fas star-rating">
+											<span style="width: 100%;">&nbsp;</span>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<h6 class="stream__title">
-								24 hours stream before the goddess of war launch
-							</h6>
-							<div class="stream__date">July 14th, 2018</div>
 						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow Davikinger90</span>
+					</div>
+					<div class="product">
+						<a href="shop-product.html" class="product__thumbnail">
+							<img src="assets/img/samples/product-img-04.png" alt="">
+							<div class="btn btn-tertiary">Add to cart +</div>
 						</a>
-					</div>
-				</article>
-				<article class="stream stream-2 stream-3 has-post-thumbnail" data-id="ratirl" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-01.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-01.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-01.jpg" alt="">
+						<div class="product__body">
+							<div class="product__header">
+								<ul class="product__cats list-unstyled">
+									<li class="product__cats-item">
+										<a href="#">Framed prints</a>
+									</li>
+								</ul>
+								<h2 class="product__title h4"><a href="shop-product.html">Guardians white frame print</a></h2>
+								<ul class="product__meta list-unstyled">
+									<li class="product__meta-item product__price">$32.00</li>
+									<li class="product__meta-item product__ratings">
+										<div class="fas star-rating">
+											<span style="width: 80%;">&nbsp;</span>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<h6 class="stream__title">
-								Davikinger plays &quot;Clash of eternity&quot;<span class="badge badge-danger badge-live">Live</span>
-							</h6>
-							<div class="stream__date">August 3rd, 2018</div>
 						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow Davikinger90</span>
+					</div>
+					<div class="product">
+						<a href="shop-product.html" class="product__thumbnail">
+							<img src="assets/img/samples/product-img-01.png" alt="">
+							<div class="btn btn-tertiary">Add to cart +</div>
 						</a>
-					</div>
-				</article>
-				<article class="stream stream-5 stream-4 has-post-thumbnail" data-id="dafran" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-02.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-02.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-02.jpg" alt="">
+						<div class="product__body">
+							<div class="product__header">
+								<ul class="product__cats list-unstyled">
+									<li class="product__cats-item">
+										<a href="#">Framed prints</a>
+									</li>
+								</ul>
+								<h2 class="product__title h4"><a href="shop-product.html">Magimons black framed print</a></h2>
+								<ul class="product__meta list-unstyled">
+									<li class="product__meta-item product__price">$38.00</li>
+									<li class="product__meta-item product__ratings">
+										<div class="fas star-rating">
+											<span style="width: 80%;">&nbsp;</span>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<h6 class="stream__title">
-								The magimons adventure with G-Huntress
-							</h6>
-							<div class="stream__date">August 3rd, 2018</div>
 						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow G-Huntress</span>
+					</div>
+					<div class="product">
+						<a href="shop-product.html" class="product__thumbnail">
+							<img src="assets/img/samples/product-img-02.png" alt="">
+							<div class="btn btn-tertiary">Add to cart +</div>
 						</a>
-					</div>
-				</article>
-				<article class="stream stream-4 has-post-thumbnail" data-id="mcconnellret" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-03.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-03.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-03.jpg" alt="">
+						<div class="product__body">
+							<div class="product__header">
+								<ul class="product__cats list-unstyled">
+									<li class="product__cats-item">
+										<a href="#">Coffee mugs</a>
+									</li>
+								</ul>
+								<h2 class="product__title h4"><a href="shop-product.html">Necromancers ennamel mug</a></h2>
+								<ul class="product__meta list-unstyled">
+									<li class="product__meta-item product__price">$16.00</li>
+									<li class="product__meta-item product__ratings">
+										<div class="fas star-rating">
+											<span style="width: 60%;">&nbsp;</span>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<h6 class="stream__title">
-								Super plumber bros speedrun for charity!
-							</h6>
-							<div class="stream__date">July 27th, 2018</div>
 						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow Julie_Noire</span>
-						</a>
 					</div>
-				</article>
-				<article class="stream stream-1 stream-5 has-post-thumbnail" data-id="dakotaz" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-04.jpg" data-easy-embed>
-					<div class="stream__thumbnail">
-						<img src="assets/img/samples/stream-img-04.jpg" alt="">
-					</div>
-					<div class="stream__icon"></div>
-					<div class="stream__header">
-						<div class="stream__info">
-							<div class="stream__avatar">
-								<img src="assets/img/samples/streams-archive-avatar-04.jpg" alt="">
-							</div>
-							<h6 class="stream__title">
-								24 hours stream before the goddess of war launch
-							</h6>
-							<div class="stream__date">July 14th, 2018</div>
-						</div>
-						<a href="#" class="btn btn-twitch btn-twitch--advanced">
-							<i class="fab fa-twitch">&nbsp;</i><span class="d-none d-lg-inline-block btn__text-inner">Follow Davikinger90</span>
-						</a>
-					</div>
-				</article>
 			
 			</div>
 			
@@ -670,7 +654,7 @@
 										<li class=""><a href="features-contact-us.html">Contact Us</a></li>
 										<li class=""><a href="features-faqs.html">FAQs</a></li>
 										<li class=""><a href="management-and-staff.html">Management & Staff</a></li>
-										<li class="active"><a href="streams-archive.html">Streams Page</a></li>
+										<li class=""><a href="streams-archive.html">Streams Page</a></li>
 										<li class=""><a href="partners.html">Our Partners</a></li>
 										<li class=""><a href="features-shortcodes.html">Shortcodes</a></li>
 										<li class=""><a href="features-typography.html">Typography</a></li>
@@ -719,11 +703,11 @@
 										<li class=""><a href="matches-replay.html">Match Replay</a></li>
 									</ul>
 								</li>
-								<li class="">
+								<li class="active">
 									<a href="#">Shop Pages</a>
 									<ul class="mobile-nav__sub">
 										<li class=""><a href="shop.html">Shop Page v1</a></li>
-										<li class=""><a href="shop-2.html">Shop Page v2</a></li>
+										<li class="active"><a href="shop-2.html">Shop Page v2</a></li>
 										<li class=""><a href="shop-product.html">Product Page</a></li>
 										<li class=""><a href="shop-checkout.html">Checkout Page</a></li>
 									</ul>
@@ -1928,7 +1912,7 @@
 											<li class=""><a href="features-faqs.html">FAQs</a></li>
 											<li class=""><a href="features-contact-us.html">Contact Us</a></li>
 											<li class=""><a href="management-and-staff.html">Management & Staff</a></li>
-											<li class="active"><a href="streams-archive.html">Streams Page</a></li>
+											<li class=""><a href="streams-archive.html">Streams Page</a></li>
 											<li class=""><a href="partners.html">Our Partners</a></li>
 										</ul>
 										<ul class="col-md-12 col-lg-4">
@@ -1940,11 +1924,11 @@
 									</div>
 								</ul>
 							</li>
-							<li class="">
+							<li class="active">
 								<a href="shop.html">Shop</a>
 								<ul class="dl-submenu">
 									<li class=""><a href="shop.html">Shop Page v1</a></li>
-									<li class=""><a href="shop-2.html">Shop Page v2</a></li>
+									<li class="active"><a href="shop-2.html">Shop Page v2</a></li>
 									<li class=""><a href="shop-product.html">Product Page</a></li>
 									<li class=""><a href="shop-checkout.html">Checkout Page</a></li>
 								</ul>
