@@ -37196,18 +37196,12 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
   color: #fff;
   background-color: #151720;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
 
-.touch .team-selection-item__thumbnail {
-  -webkit-transform: translateZ(0px) rotate(45deg);
-  will-change: transform;
-}
 
 .team-selection-item--style-1 .team-selection-item__thumbnail {
   padding-bottom: calc(70% - 16px);
@@ -37297,15 +37291,7 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
   transition: opacity 300ms ease;
 }
 
-.team-selection-item__thumbnail-inner img {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
 
-.touch .team-selection-item__thumbnail-inner img {
-  -webkit-transform: translateZ(0px) rotate(-45deg);
-  will-change: transform;
-}
 
 .team-selection-item__thumbnail-inner img:first-child {
   width: 100%;
@@ -37337,13 +37323,6 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 .team-selection-item__thumbnail:hover {
   position: relative;
   z-index: 1;
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-          transform: rotate(45deg) translate(-8px, -8px);
-}
-
-.touch .team-selection-item__thumbnail:hover {
-  -webkit-transform: translateZ(0px) rotate(45deg) translate(-8px, -8px);
-  will-change: transform;
 }
 
 .team-selection-item--style-1 .team-selection-item__thumbnail:hover,
